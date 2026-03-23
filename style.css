@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bungee&family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap");
+/* 
+ฟอนหัวข้อ 'Baloo 2', cursive;
+ฟอนเนื้อห้า 'Prompt', sans-serif;
+สีหลัก FFF8F0
+สีรอง D2B48C
+สีฟอน FF7F50 */
+
+/* body {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+p {
+  color: red;
+  font-weight: bold;
+  background-color: black;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.tiktok {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  text-align: center;
+  border-radius: 50%;
+
+  span {
+    font-family: sans-serif;
+    color: white;
+    font-size: 200px;
+    text-shadow:
+      4px 3px 0px #fe2c55,
+      -4px -3px 0px #25f4ee;
+  }
+}
+
+.cat-farm {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  background-color: #d2b48c;
+  color: #ff7f50;
+}
